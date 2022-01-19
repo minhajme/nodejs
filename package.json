@@ -1,0 +1,24 @@
+{
+  "name": "nodepay",
+  "version": "0.0.1",
+  "description": "A payment gateway engine written in nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require test/support/env --reporter spec --bail --check-leaks test/ test/acceptance/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minhajme/nodepay.git"
+  },
+  "keywords": [
+    "payment",
+    "gateway",
+    "nodejs"
+  ],
+  "author": "Minhajul Anwar",
+  "license": "SEE LICENSE IN <LICENSE>",
+  "bugs": {
+    "url": "https://github.com/minhajme/nodepay/issues"
+  },
+  "homepage": "https://github.com/minhajme/nodepay#readme"
+}
